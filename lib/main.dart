@@ -48,28 +48,28 @@ class PaginaInicio extends StatelessWidget {
                   ), //fin de text
                 ), //fin de center
               ), //fin de container evelyn valles
+
               SizedBox(height: 50),
+
               Container(
-                height: 100,
-                width: 100,
-                child: Icon(
-                  Icons.account_box,
-                  color: Colors.pink[200],
-                  size: 100,
-                ),
+                height: 150,
+                width: 150,
                 decoration: BoxDecoration(
+                  color: Colors.indigo,
+                  image: DecorationImage(image: NetworkImage('https://raw.githubusercontent.com/EvelynVc/mis_imagenes/main/foto%20(2).jpg'), alignment: Alignment.topCenter),
                   border: Border(
                     top: BorderSide(
-                      color: Colors.green,
+                      color: Colors.purple[300],
                       width: 5.0,
                     ),
                     bottom: BorderSide(
-                      color: Colors.green,
+                      color: Colors.purple[300],
                       width: 5.0,
-                    ), //fin de border size
-                  ), //fin de border
-                ), //fin de boxdecoration
-              ), //fin de container imagen
+                    ),
+                  ),
+                ), //fin de el decoration box
+              ), //fin de el container foto
+
               SizedBox(height: 50),
               Container(
                 height: 100,
