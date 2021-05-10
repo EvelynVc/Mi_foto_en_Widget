@@ -80,6 +80,12 @@ class PaginaInicio extends StatelessWidget {
                       borderSide: BorderSide(
                         color: Colors.deepPurpleAccent,
                         width: 5.0,
+                        child: Center(
+                          child: Text(
+                            'Evelyn Valles',
+                            style: TextStyle(fontSize: 18),
+                          ), //fin de text
+                        ), //fin de center
                       ),
                     ),
                     //! Change the Focused Border
