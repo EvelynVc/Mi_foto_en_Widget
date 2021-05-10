@@ -9,7 +9,7 @@ class MyFotoApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Mi ejemplo',
       theme: ThemeData(
-        primarySwatch: Colors.pink,
+        primarySwatch: Colors.deepPurple,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ), //fin de Theme
       home: PaginaInicio(),
@@ -34,10 +34,10 @@ class PaginaInicio extends StatelessWidget {
                 height: 100,
                 width: 200,
                 decoration: BoxDecoration(
-                  color: Colors.pink[50],
+                  color: Colors.deepPurple[100],
                   borderRadius: BorderRadius.circular(25),
                   border: Border.all(
-                    color: Colors.green,
+                    color: Colors.deepPurpleAccent,
                     width: 5,
                   ), //fin de border
                 ), //fin de boxdecoration
@@ -55,11 +55,11 @@ class PaginaInicio extends StatelessWidget {
                 height: 150,
                 width: 150,
                 decoration: BoxDecoration(
-                  color: Colors.indigo,
+                  color: Colors.black,
                   image: DecorationImage(image: NetworkImage('https://raw.githubusercontent.com/EvelynVc/mis_imagenes/main/foto%20(2).jpg'), alignment: Alignment.topCenter),
                   border: Border(
                     top: BorderSide(
-                      color: Colors.purple[300],
+                      color: Colors.deepPurpleAccent,
                       width: 5.0,
                     ),
                     bottom: BorderSide(
@@ -78,7 +78,7 @@ class PaginaInicio extends StatelessWidget {
                   decoration: InputDecoration(
                     enabledBorder: OutlineInputBorder(
                       borderSide: BorderSide(
-                        color: Colors.green,
+                        color: Colors.deepPurpleAccent,
                         width: 5.0,
                       ),
                     ),
