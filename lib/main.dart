@@ -95,7 +95,6 @@ class PaginaInicio extends StatelessWidget {
                 ), //fin de TextField
               ), //fin de container grupo especialidad
 
-              
               Container(
                 height: 100,
                 width: 200,
