@@ -87,16 +87,10 @@ class PaginaInicio extends StatelessWidget {
                     focusedBorder: OutlineInputBorder(
                       borderSide: BorderSide(
                         color: Colors.purple,
-                        width: 5.0,
+                        width: 10.0,
                       ), //fin de bordersize
                     ), //fin de outlineInput border
                   ), //fin de inoutdecoration
-                  child: Center(
-                    child: Text(
-                      'Evelyn Valles',
-                      style: TextStyle(fontSize: 18),
-                    ), //fin de text
-                  ), //fin de center
                 ), //fin de TextField
               ), //fin de container grupo especialidad
             ], //fin del children/niño
