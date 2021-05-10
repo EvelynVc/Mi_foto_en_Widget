@@ -63,7 +63,7 @@ class PaginaInicio extends StatelessWidget {
                       width: 5.0,
                     ),
                     bottom: BorderSide(
-                      color: Colors.purple[300],
+                      color: Colors.deepPurpleAccent,
                       width: 5.0,
                     ),
                   ),
