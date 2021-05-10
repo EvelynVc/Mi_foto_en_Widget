@@ -9,7 +9,7 @@ class MyFotoApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Mi ejemplo',
       theme: ThemeData(
-        primarySwatch: Colors.pink,
+        primarySwatch: Colors.deepPurple,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ), //fin de Theme
       home: PaginaInicio(),
@@ -34,10 +34,10 @@ class PaginaInicio extends StatelessWidget {
                 height: 100,
                 width: 200,
                 decoration: BoxDecoration(
-                  color: Colors.pink[50],
+                  color: Colors.deepPurple[100],
                   borderRadius: BorderRadius.circular(25),
                   border: Border.all(
-                    color: Colors.green,
+                    color: Colors.deepPurpleAccent,
                     width: 5,
                   ), //fin de border
                 ), //fin de boxdecoration
@@ -48,45 +48,71 @@ class PaginaInicio extends StatelessWidget {
                   ), //fin de text
                 ), //fin de center
               ), //fin de container evelyn valles
+
               SizedBox(height: 50),
+
               Container(
-                height: 100,
-                width: 100,
-                child: Icon(
-                  Icons.account_box,
-                  color: Colors.pink[200],
-                  size: 100,
-                ),
+                height: 150,
+                width: 150,
                 decoration: BoxDecoration(
+                  color: Colors.black,
+                  image: DecorationImage(image: NetworkImage('https://raw.githubusercontent.com/EvelynVc/mis_imagenes/main/foto%20(3).jpg'), alignment: Alignment.topCenter),
                   border: Border(
                     top: BorderSide(
-                      color: Colors.green,
+                      color: Colors.deepPurpleAccent,
                       width: 5.0,
                     ),
                     bottom: BorderSide(
-                      color: Colors.green,
+                      color: Colors.deepPurpleAccent,
                       width: 5.0,
-                    ), //fin de border size
-                  ), //fin de border
-                ), //fin de boxdecoration
-              ), //fin de container imagen
+                    ),
+                  ),
+                ), //fin de el decoration box
+              ), //fin de el container foto
+
               SizedBox(height: 50),
               Container(
                 height: 100,
                 width: 200,
+
                 child: TextField(
                   decoration: InputDecoration(
+                    labelText: 'Especialidad',
                     enabledBorder: OutlineInputBorder(
                       borderSide: BorderSide(
-                        color: Colors.green,
+                        color: Colors.deepPurpleAccent,
                         width: 5.0,
                       ),
                     ),
                     //! Change the Focused Border
                     focusedBorder: OutlineInputBorder(
                       borderSide: BorderSide(
-                        color: Colors.green,
+                        color: Colors.purple,
+                        width: 6.0,
+                      ), //fin de bordersize
+                    ), //fin de outlineInput border
+                  ), //fin de inoutdecoration
+                ), //fin de TextField
+              ), //fin de container grupo especialidad
+
+              Container(
+                height: 100,
+                width: 200,
+
+                child: TextField(
+                  decoration: InputDecoration(
+                    labelText: 'Grado y Grupo',
+                    enabledBorder: OutlineInputBorder(
+                      borderSide: BorderSide(
+                        color: Colors.deepPurpleAccent,
                         width: 5.0,
+                      ),
+                    ),
+                    //! Change the Focused Border
+                    focusedBorder: OutlineInputBorder(
+                      borderSide: BorderSide(
+                        color: Colors.purple,
+                        width: 6.0,
                       ), //fin de bordersize
                     ), //fin de outlineInput border
                   ), //fin de inoutdecoration
