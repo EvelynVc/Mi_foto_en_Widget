@@ -88,7 +88,7 @@ class PaginaInicio extends StatelessWidget {
                     focusedBorder: OutlineInputBorder(
                       borderSide: BorderSide(
                         color: Colors.purple,
-                        width: 8.0,
+                        width: 6.0,
                       ), //fin de bordersize
                     ), //fin de outlineInput border
                   ), //fin de inoutdecoration
