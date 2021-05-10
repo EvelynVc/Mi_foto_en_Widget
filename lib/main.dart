@@ -74,12 +74,12 @@ class PaginaInicio extends StatelessWidget {
               Container(
                 height: 100,
                 width: 200,
-                child: Center(
-                  child: Text(
-                    'Evelyn Valles',
-                    style: TextStyle(fontSize: 18),
-                  ), //fin de text
-                ), //fin de center
+
+                child: Text(
+                  'Evelyn Valles',
+                  style: TextStyle(fontSize: 18),
+                ), //fin de text
+
                 child: TextField(
                   decoration: InputDecoration(
                     enabledBorder: OutlineInputBorder(
