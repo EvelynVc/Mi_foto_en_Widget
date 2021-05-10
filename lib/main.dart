@@ -77,7 +77,7 @@ class PaginaInicio extends StatelessWidget {
 
                 child: TextField(
                   decoration: InputDecoration(
-                    labelText: 'Programacion',
+                    labelText: 'Especialidad',
                     enabledBorder: OutlineInputBorder(
                       borderSide: BorderSide(
                         color: Colors.deepPurpleAccent,
@@ -88,7 +88,7 @@ class PaginaInicio extends StatelessWidget {
                     focusedBorder: OutlineInputBorder(
                       borderSide: BorderSide(
                         color: Colors.purple,
-                        width: 5.0,
+                        width: 8.0,
                       ), //fin de bordersize
                     ), //fin de outlineInput border
                   ), //fin de inoutdecoration
