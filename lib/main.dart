@@ -94,6 +94,31 @@ class PaginaInicio extends StatelessWidget {
                   ), //fin de inoutdecoration
                 ), //fin de TextField
               ), //fin de container grupo especialidad
+
+              SizedBox(height: 50),
+              Container(
+                height: 100,
+                width: 200,
+
+                child: TextField(
+                  decoration: InputDecoration(
+                    labelText: 'Grado y Grupo',
+                    enabledBorder: OutlineInputBorder(
+                      borderSide: BorderSide(
+                        color: Colors.deepPurpleAccent,
+                        width: 5.0,
+                      ),
+                    ),
+                    //! Change the Focused Border
+                    focusedBorder: OutlineInputBorder(
+                      borderSide: BorderSide(
+                        color: Colors.purple,
+                        width: 6.0,
+                      ), //fin de bordersize
+                    ), //fin de outlineInput border
+                  ), //fin de inoutdecoration
+                ), //fin de TextField
+              ), //fin de container grupo especialidad
             ], //fin del children/niño
           ), //fun de column
         ), //fin de child center
