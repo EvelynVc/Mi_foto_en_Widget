@@ -65,12 +65,6 @@ class PaginaInicio extends StatelessWidget {
                     bottom: BorderSide(
                       color: Colors.deepPurpleAccent,
                       width: 5.0,
-                      child: Center(
-                        child: Text(
-                          'Evelyn Valles',
-                          style: TextStyle(fontSize: 18),
-                        ), //fin de text
-                      ), //fin de center
                     ),
                   ),
                 ), //fin de el decoration box
