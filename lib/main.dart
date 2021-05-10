@@ -92,6 +92,12 @@ class PaginaInicio extends StatelessWidget {
                     ), //fin de outlineInput border
                   ), //fin de inoutdecoration
                 ), //fin de TextField
+                child: Center(
+                  child: Text(
+                    'Evelyn Valles',
+                    style: TextStyle(fontSize: 18),
+                  ), //fin de text
+                ), //fin de center
               ), //fin de container grupo especialidad
             ], //fin del children/niño
           ), //fun de column
