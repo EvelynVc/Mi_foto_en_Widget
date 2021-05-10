@@ -97,8 +97,6 @@ class PaginaInicio extends StatelessWidget {
                     ), //fin de outlineInput border
                   ), //fin de inoutdecoration
                 ), //fin de TextField
-                
-               
               ), //fin de container grupo especialidad
             ], //fin del children/niño
           ), //fun de column
